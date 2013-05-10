@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES := \
     vendor/sony/kumquat/proprietary/lib/libasound.so:obj/lib/libasound.so
 
 PRODUCT_COPY_FILES += \
+    vendor/sony/kumquat/proprietary/app/CSMBattery.apk:system/app/CSMBattery.apk \
     vendor/sony/kumquat/proprietary/bin/stercd:system/bin/stercd \
     vendor/sony/kumquat/proprietary/bin/cn_server:system/bin/cn_server \
     vendor/sony/kumquat/proprietary/bin/msa:system/bin/msa \
